@@ -119,7 +119,7 @@ h3{
     border-style: solid;
     border-color: #F2F2F2;
     border-width: 1px;
-    width: calc(90%);
+    width: 90%;
     border-radius: 3px;
 }
 
@@ -142,4 +142,34 @@ h3{
     border-bottom-color: #F2F2F2;
     border-bottom-style: solid;
     border-bottom-width: 1px;
+}
+
+@media screen and (max-width: 1024px){
+    .panel__wrapper{
+        flex-wrap: wrap;
+    }
+
+    .article__card--big{
+        width: 75%;
+    }
+
+    .article__card__wrapper{
+        width: 25%;
+    }
+    .press__wrapper{
+        width: 100%;
+        padding: 40px 0;
+    }
+    .press__content{
+        width: 80%;
+        list-style: none;
+    }
+
+    .press__title{
+        width: 80%;
+    }
+
+    .press__load{
+        width: 25%;
+    }
 }
